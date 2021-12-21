@@ -29,17 +29,9 @@ class Main extends Component {
     if (this.state.isLoading) {
       return (
         <>
-          <div className="background"></div>
-          <div className="loading">
-            <div className="lds-roller">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+          <div className="flex items-center justify-center">
+            <div className="h-2/4">
+              <div className="w-24 h-24 border-l-2 border-gray-900 rounded-full animate-spin"></div>
             </div>
           </div>
         </>
@@ -48,15 +40,15 @@ class Main extends Component {
 
     return (
       <>
-        <div class="flex items-center justify-center m-2">
-          <div class="flex border-2 border-gray-200 rounded">
+        <div className="flex items-center justify-center m-2">
+          <div className="flex border-2 border-gray-200 rounded">
             <input
               type="text"
-              class="px-4 py-2 w-80"
+              className="px-4 py-2 w-80"
               placeholder="Search..."
               onChange={this.searchInputHandler}
             />
-            <button class="px-4 text-white bg-gray-600 border-l ">
+            <button className="px-4 text-white bg-gray-600 border-l ">
               Search
             </button>
           </div>

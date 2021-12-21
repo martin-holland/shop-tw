@@ -3,8 +3,8 @@ import React from "react";
 function Header(props) {
   return (
     <header>
-      <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
-        <div class="flex items-center flex-no-shrink text-white mr-6">
+      <nav className="flex items-center justify-between flex-wrap bg-teal p-6">
+        <div className="flex items-center flex-no-shrink text-white mr-6">
           <svg
             width="150"
             height="20"
@@ -214,14 +214,14 @@ function Header(props) {
             />
           </svg>
 
-          <span class="font-semibold text-xl tracking-tight text-black">
+          <span className="font-semibold text-xl tracking-tight text-black">
             FakeShop
           </span>
         </div>
-        <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
+        <div className="block lg:hidden">
+          <button className="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
             <svg
-              class="h-3 w-3"
+              className="h-3 w-3"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -230,31 +230,33 @@ function Header(props) {
             </svg>
           </button>
         </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div class="text-sm lg:flex-grow">
+        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div className="text-sm lg:flex-grow">
             <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+              href="/"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
             >
-              Docs
+              Home
             </a>
             <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+              href="https://github.com/martin-holland/"
+              target="_blank"
+              rel="noreferrer"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
             >
-              Examples
+              Other Work
             </a>
             <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white"
+              href="/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white"
             >
-              Blog
+              About
             </a>
           </div>
           <div>
             <a
               href="#"
-              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0"
+              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0"
             >
               Download
             </a>
